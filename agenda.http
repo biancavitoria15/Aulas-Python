@@ -1,0 +1,40 @@
+POST https://tdspm---python-default-rtdb.firebaseio.com/contatos.json HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Joao Silva",
+    "email": "joao@teste.com",
+    "telefone": "(11) 1111-1111"
+}
+
+### 
+
+POST https://tdspm---python-default-rtdb.firebaseio.com/contatos.json HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Bianca Vitoria",
+    "email": "bianca@teste.com",
+    "telefone": "(11) 2222-2222"
+}
+
+###
+
+GET  https://tdspm---python-default-rtdb.firebaseio.com/contatos.json HTTP/1.1
+
+###
+
+DELETE https://tdspm---python-default-rtdb.firebaseio.com/contatos/-O6Lee1uNql5rvt3W0QL.json HTTP/1.1
+
+
+###
+PUT https://tdspm---python-default-rtdb.firebaseio.com/contatos/-O6LhYGNV4OUhpjKgDFj.json HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Joao Santos",
+    "email":  "joao@santos.com",
+    "telefone": "(11) 3333-3333"
+}
+
+
